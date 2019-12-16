@@ -17,6 +17,11 @@
 		0B537CF623A5649E008F634F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B537CF423A5649E008F634F /* Menu.swift */; };
 		0B537CF723A5649E008F634F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B537CF523A5649E008F634F /* Order.swift */; };
 		0B537CF923A564C4008F634F /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B537CF823A564C4008F634F /* menu.json */; };
+		0BF4604923A6F98B004B082A /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4604823A6F98B004B082A /* ItemRow.swift */; };
+		0BF4604B23A70178004B082A /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4604A23A70178004B082A /* ItemDetail.swift */; };
+		0BF4604D23A70BE1004B082A /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4604C23A70BE1004B082A /* OrderView.swift */; };
+		0BF4604F23A70D1F004B082A /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4604E23A70D1F004B082A /* AppView.swift */; };
+		0BF4605123A70E46004B082A /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF4605023A70E46004B082A /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		0B537CF423A5649E008F634F /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		0B537CF523A5649E008F634F /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		0B537CF823A564C4008F634F /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		0BF4604823A6F98B004B082A /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		0BF4604A23A70178004B082A /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		0BF4604C23A70BE1004B082A /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		0BF4604E23A70D1F004B082A /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		0BF4605023A70E46004B082A /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +77,15 @@
 				0B537CDE23A5642C008F634F /* AppDelegate.swift */,
 				0B537CF223A56471008F634F /* Helper.swift */,
 				0B537CF423A5649E008F634F /* Menu.swift */,
-				0B537CF823A564C4008F634F /* menu.json */,
 				0B537CF523A5649E008F634F /* Order.swift */,
 				0B537CE023A5642C008F634F /* SceneDelegate.swift */,
+				0BF4605023A70E46004B082A /* CheckoutView.swift */,
 				0B537CE223A5642C008F634F /* ContentView.swift */,
+				0BF4604823A6F98B004B082A /* ItemRow.swift */,
+				0BF4604A23A70178004B082A /* ItemDetail.swift */,
+				0BF4604C23A70BE1004B082A /* OrderView.swift */,
+				0BF4604E23A70D1F004B082A /* AppView.swift */,
+				0B537CF823A564C4008F634F /* menu.json */,
 				0B537CE423A5642D008F634F /* Assets.xcassets */,
 				0B537CE923A5642D008F634F /* LaunchScreen.storyboard */,
 				0B537CEC23A5642D008F634F /* Info.plist */,
@@ -160,10 +175,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B537CF723A5649E008F634F /* Order.swift in Sources */,
+				0BF4605123A70E46004B082A /* CheckoutView.swift in Sources */,
 				0B537CDF23A5642C008F634F /* AppDelegate.swift in Sources */,
 				0B537CE123A5642C008F634F /* SceneDelegate.swift in Sources */,
+				0BF4604923A6F98B004B082A /* ItemRow.swift in Sources */,
 				0B537CE323A5642C008F634F /* ContentView.swift in Sources */,
+				0BF4604B23A70178004B082A /* ItemDetail.swift in Sources */,
+				0BF4604D23A70BE1004B082A /* OrderView.swift in Sources */,
 				0B537CF323A56471008F634F /* Helper.swift in Sources */,
+				0BF4604F23A70D1F004B082A /* AppView.swift in Sources */,
 				0B537CF623A5649E008F634F /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
